@@ -2,3 +2,7 @@ syntax: regexp
 Debug/*
 Release/*
 ipch/*
+syntax: glob
+Count Occurances.opensdf
+Count Occurances.sdf
+Count Occurances.suo
