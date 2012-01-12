@@ -3,7 +3,7 @@
 #include "stdafx.h"
 #include "Form1.h"
 
-using namespace CountOccurances;
+using namespace CountOccurrences;
 
 [STAThreadAttribute]
 int main(array<System::String ^> ^args)

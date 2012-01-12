@@ -1,5 +1,5 @@
 // stdafx.cpp : source file that includes just the standard includes
-// Count Occurances.pch will be the pre-compiled header
+// Count Occurrences.pch will be the pre-compiled header
 // stdafx.obj will contain the pre-compiled type information
 
 #include "stdafx.h"

@@ -3,6 +3,6 @@ Debug/*
 Release/*
 ipch/*
 syntax: glob
-Count Occurances.opensdf
-Count Occurances.sdf
-Count Occurances.suo
+Count Occurrences.opensdf
+Count Occurrences.sdf
+Count Occurrences.suo

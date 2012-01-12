@@ -1,7 +1,7 @@
 #pragma once
 
 
-namespace CountOccurances {
+namespace CountOccurrences {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -112,8 +112,8 @@ namespace CountOccurances {
 			// notifyIcon
 			// 
 			this->notifyIcon->BalloonTipIcon = System::Windows::Forms::ToolTipIcon::Info;
-			this->notifyIcon->BalloonTipText = L"This program counts the number of occurances of a given string in a file.";
-			this->notifyIcon->BalloonTipTitle = L"count occurances";
+			this->notifyIcon->BalloonTipText = L"This program counts the number of occurrences of a given string in a file.";
+			this->notifyIcon->BalloonTipTitle = L"count occurrences";
 			this->notifyIcon->Icon = (cli::safe_cast<System::Drawing::Icon^  >(resources->GetObject(L"notifyIcon.Icon")));
 			this->notifyIcon->Text = L"Running";
 			this->notifyIcon->Visible = true;
@@ -145,7 +145,7 @@ namespace CountOccurances {
 			this->MinimumSize = System::Drawing::Size(240, 140);
 			this->Name = L"Form1";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
-			this->Text = L"Count Occurances";
+			this->Text = L"Count Occurrences";
 			this->SizeChanged += gcnew System::EventHandler(this, &Form1::Form1_SizeChanged);
 			this->KeyPress += gcnew System::Windows::Forms::KeyPressEventHandler(this, &Form1::Form1_KeyPress);
 			this->ResumeLayout(false);
@@ -165,7 +165,7 @@ namespace CountOccurances {
 					 const char  *searchFileName;
 					 const char *searchString;
 					
-					 outputLabel->Text = "Counting occurances of the string \"";
+					 outputLabel->Text = "Counting occurrences of the string \"";
 					 outputLabel->Text += findText->Text;
 					 outputLabel->Text += "\" in the file \"";
 					 outputLabel->Text += fileText->Text;
@@ -193,7 +193,7 @@ namespace CountOccurances {
 						 }
 						 outputLabel->Text = "";
 						 outputLabel->Text += count;
-						 outputLabel->Text += " occurances of the string \"";
+						 outputLabel->Text += " occurrences of the string \"";
 						 outputLabel->Text += findText->Text;
 						 outputLabel->Text += "\" were found.";
 						 //in the file \""<<argv[2]<<'\"'<<endl;

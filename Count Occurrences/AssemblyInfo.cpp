@@ -11,11 +11,11 @@ using namespace System::Security::Permissions;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 //
-[assembly:AssemblyTitleAttribute("CountOccurances")];
+[assembly:AssemblyTitleAttribute("CountOccurrences")];
 [assembly:AssemblyDescriptionAttribute("")];
 [assembly:AssemblyConfigurationAttribute("")];
 [assembly:AssemblyCompanyAttribute("The Dark Side")];
-[assembly:AssemblyProductAttribute("CountOccurances")];
+[assembly:AssemblyProductAttribute("CountOccurrences")];
 [assembly:AssemblyCopyrightAttribute("Copyright (c) The Dark Side 2008")];
 [assembly:AssemblyTrademarkAttribute("")];
 [assembly:AssemblyCultureAttribute("")];
