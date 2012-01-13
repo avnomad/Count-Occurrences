@@ -133,7 +133,7 @@ namespace CountOccurrences {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(312, 113);
+			this->ClientSize = System::Drawing::Size(312, 107);
 			this->Controls->Add(this->outputLabel);
 			this->Controls->Add(this->fileText);
 			this->Controls->Add(this->fileLabel);
@@ -141,8 +141,8 @@ namespace CountOccurrences {
 			this->Controls->Add(this->findLabel);
 			this->DoubleBuffered = true;
 			this->KeyPreview = true;
-			this->MaximumSize = System::Drawing::Size(60000000, 140);
-			this->MinimumSize = System::Drawing::Size(240, 140);
+			this->MaximumSize = System::Drawing::Size(60000000, 145);
+			this->MinimumSize = System::Drawing::Size(240, 145);
 			this->Name = L"Form1";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Count Occurrences";
@@ -189,8 +189,8 @@ namespace CountOccurrences {
 								 }
 							 }
 							 else
-								 p = searchString;
-						 }
+								 p = searchString;	// will not find an occurrence of the string if it's preceded by a prefix of itself...
+						 }							// need to upgrade my algorithm :)
 						 outputLabel->Text = "";
 						 outputLabel->Text += count;
 						 outputLabel->Text += " occurrences of the string \"";
